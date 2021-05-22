@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:padding="40dp"
+    tools:context=".Register.Details">
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/ic_baseline_keyboard_arrow_left_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="3dp"
+            android:fontFamily="@font/sfbold"
+            android:text="@string/details_header"
+            android:textColor="@color/white"
+            android:textSize="26sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/sfregular"
+            android:gravity="center"
+            android:text="@string/details_text"
+            android:textColor="@color/subtitle_color"
+            android:textSize="17sp" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/home_text_view"
+            android:drawableStart="@drawable/user_icon"
+            android:drawablePadding="20dp"
+            android:fontFamily="@font/sfmedium"
+            android:clickable="false"
+            android:cursorVisible="false"
+            android:focusable="false"
+            android:inputType="textNoSuggestions"
+            android:focusableInTouchMode="false"
+            android:padding="15dp"
+            android:paddingStart="25dp"
+            android:textColor="@color/details_color"
+            android:textColorHint="@color/details_color"
+            android:textSize="17sp"
+            tools:ignore="RtlSymmetry" />
+
+        <EditText
+            android:id="@+id/mail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/home_text_view"
+            android:drawableStart="@drawable/email_icon"
+            android:drawablePadding="20dp"
+            android:fontFamily="@font/sfmedium"
+            android:clickable="false"
+            android:cursorVisible="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:padding="15dp"
+            android:paddingStart="25dp"
+            android:textColor="@color/details_color"
+            android:textColorHint="@color/details_color"
+            android:textSize="17sp"
+            tools:ignore="RtlSymmetry" />
+
+        <EditText
+            android:id="@+id/id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/home_text_view"
+            android:drawableStart="@drawable/student_id"
+            android:drawablePadding="20dp"
+            android:fontFamily="@font/sfmedium"
+            android:clickable="false"
+            android:cursorVisible="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:padding="15dp"
+            android:paddingStart="25dp"
+            android:textColor="@color/details_color"
+            android:textColorHint="@color/details_color"
+            android:textSize="17sp"
+            tools:ignore="RtlSymmetry" />
+
+        <EditText
+            android:id="@+id/department"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/home_text_view"
+            android:drawableStart="@drawable/department_icon"
+            android:drawablePadding="20dp"
+            android:fontFamily="@font/sfmedium"
+            android:clickable="false"
+            android:cursorVisible="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:padding="15dp"
+            android:paddingStart="25dp"
+            android:textColor="@color/details_color"
+            android:textColorHint="@color/details_color"
+            android:textSize="17sp"
+            tools:ignore="RtlSymmetry" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <include
+            android:id="@+id/check_button"
+            layout="@layout/main_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/not_me"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/sfmedium"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/details_back_text"
+            android:textColor="@color/subtitle_color"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

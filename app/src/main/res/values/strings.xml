@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Trust Me_Demo</string>
+    <!-- Splash Screen -->
+    <string name="splash_screen_header">Welcome to Trust Me</string>
+    <string name="splash_screen_text">Join the class using face recognition system and track your exams.</string>
+    <!-- Login Screen -->
+    <string name="login_new_user">New user? Get started.</string>
+    <string name="login_phone_hint">Phone Number</string>
+    <string name="login_country_code_hint">Turkey (+90)</string>
+    <string name="login_text">Enter your mobile phone to login.</string>
+    <string name="login_header">Welcome back!</string>
+    <string name="main_button_text">Verify</string>
+    <!-- Mail Screen -->
+    <string name="mail_header">Get Started</string>
+    <string name="mail_text">Check your student mail.</string>
+    <string name="mail_student_address">Student Mail</string>
+    <string name="mail_student_option">Student</string>
+    <string name="mail_academician_option">Academician</string>
+    <string name="mail_login_text">Have an account? Login.</string>
+    <!-- Details Screen -->
+    <string name="details_back_text">This is not me.</string>
+    <string name="details_text">Check that the student information are yours.</string>
+    <string name="details_header">Student Details</string>
+    <!-- Phone Screen -->
+    <string name="phone_hint">Phone Number</string>
+    <string name="phone_country_code_hint">+90</string>
+    <string name="phone_text">We will send a 6 digit verification code to your phone number.</string>
+    <string name="phone_header">Phone Authentication</string>
+    <!-- OTP Screen -->
+    <string name="otp_phone">+905324409818</string>
+    <string name="otp_text">Please, type the code we sent to</string>
+    <string name="otp_header">Code Verification</string>
+    <!-- Face Screen -->
+    <string name="face_warning_4">Check lighting conditions.</string>
+    <string name="face_warning_3">Make sure there are no other faces around you.</string>
+    <string name="face_warning_2">Make sure that you are facing the camera.</string>
+    <string name="face_warning_1">Make sure that nothing is covering your face.</string>
+    <string name="face_text">Verify your face. Face ID will allow you to join exams with a scan of your face.</string>
+    <string name="face_header">Face Recognition</string>
+    <!-- Home Screen -->
+    <string name="home_log_out_text">Log out of the account.</string>
+    <string name="home_log_out_header">Log Out</string>
+    <string name="home_profile_text">Edit student card.</string>
+    <string name="home_profile_header">Profile</string>
+    <string name="home_create_room_text">Generate a pin code and create a room.</string>
+    <string name="home_create_room_header">Create Room</string>
+    <string name="home_join_room_text">Enter a room with 4-digit pin code.</string>
+    <string name="home_join_room_header">Join Room</string>
+    <string name="home_dashboard">Dashboard</string>
+    <string name="pop_up_cr_header">Create Room</string>
+    <string name="pop_up_cr_text">Generate 4 digit exam code and create a virtual classroom.</string>
+    <string name="pop_up_jr_header">Join Room</string>
+    <string name="pop_up_jr_text">Enter the 4 digit exam code created for the virtual classroom.</string>
+    <string name="lobby_header">Lobby</string>
+    <string name="room_header">Room Details</string>
+    <string name="room_subtitle">Enter lesson code and timer.</string>
+    <string name="room_lesson_text">Lesson Code</string>
+    <string name="room_timer">Timer</string>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="350dp"
+    android:layout_height="320dp"
+    android:background="@drawable/dashboard_activity"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pop_up_jr_header"
+        android:fontFamily="@font/sfbold"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:layout_marginTop="35dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pop_up_jr_text"
+        android:gravity="center"
+        android:fontFamily="@font/sfregular"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:textSize="17sp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:layout_marginTop="2dp" />
+
+    <com.chaos.view.PinView
+        android:id="@+id/code"
+        style="@style/PinWidget.PinView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:cursorVisible="true"
+        android:elevation="5dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/sfbold"
+        app:itemRadius="10dp"
+        android:itemBackground="@drawable/pin_bg"
+        android:gravity="center"
+        android:inputType="number"
+        android:textColor="@color/white"
+        app:lineColor="#282c48"
+        app:hideLineWhenFilled="false"
+        app:itemCount="4"
+        app:itemSpacing="15dp"
+        app:itemWidth="45dp"
+        app:viewType="rectangle" />
+
+    <include android:id="@+id/join"
+        layout="@layout/main_button"
+        android:layout_width="match_parent"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
