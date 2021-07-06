@@ -5,6 +5,12 @@ Trust Me project is properly designed to be used with Android devices as a mobil
     <img src="/img/img_1.png" alt="drawing" width="400"/> 
 </center>
 
+## User Interfaces
+Splash Screen           |  Login Screen            |  Face Recognition Screen
+:-------------------------:|:-------------------------:|:-------------------------:
+![](/img/ui_1.jpg)  |  ![](/img/ui_2.jpg)  |  ![](/img/ui_3.jpg)
+
+
 ## Software Methodology
 The waterfall method was used in the software development life cycle of this project. Because the dates of the phases in the project development process have already been determined, this method is used. 
 The waterfall method is the most common software development methodology and serves as the foundation for all other models. The steps of analysis, design, implementation, and testing are generally carried out in four stages. 
@@ -54,8 +60,3 @@ The Trust Me’s firebase architecture consists of several components. These are
     <img src="/img/img_9.png" alt="drawing" width="500"/> 
 </center>
 
-## User Interfaces
-
-<img src="/img/ui_1.jpg" alt="drawing" width="220"/> 
-<img src="/img/ui_2.jpg" alt="drawing" width="220"/> 
-<img src="/img/ui_3.jpg" alt="drawing" width="220"/> 
